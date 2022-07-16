@@ -1,0 +1,40 @@
+.search {
+    margin: 0;
+    min-width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--background-serch);
+    border: none;
+    color: var(--text-primary);
+    outline: none;
+    padding: 8px;
+    font-size: 20px;
+  }
+  
+  .SearchBlock {
+    align-items: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    position: relative;
+    margin-right: 5px;
+  }
+  
+  .SearchBlock input {
+    box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.466);
+    height: 50px;
+  }
+  
+  .SearchBlock p {
+    margin-left: 0;
+    color: red;
+    opacity: 0.5;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+  }
+
+  input::placeholder {
+    font-size: 15px;
+  }
